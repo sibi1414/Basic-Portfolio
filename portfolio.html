@@ -6,41 +6,32 @@
 	<meta charset="UTF-8">
 	<meta name="keywords" content="portfolio">
 	<meta name="author" content="Sarah Janesz">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/superhero/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Sarah Janesz</a>
-			</div>
+	<div class="wrapper">
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">About</a></li>
-					<li class="active"><a href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+		<header>
+			<div id="header_block">
+				<div id="header_name_text_block"><h1 id="header_name_text">Sarah Janesz</h1></div>
+				<nav>
+					<div class="nav_link"><p><a href="index.html">About</a></p></div>
+					<div class="nav_vertical_bar"></div>
+					<div class="nav_link"><p><a href="portfolio.html">Portfolio</a></p></div>
+					<div class="nav_vertical_bar"></div>
+					<div class="nav_link"><p><a href="contact.html">Contact</a></p></div>
+				</nav>
 			</div>
-		</div>
-	</nav>
+		</header>
 
-	<div class="container main">
-		<div class="row">
-			<section class="col-md-8 fade-in">
+		<div id="main_block">
+			<section>
 				<h2>Portfolio</h2>
+				<div id="section_grey_line"></div>
 
 				<div id="folio_pic_block">
 					<div class="folio_pic">
@@ -66,36 +57,22 @@
 				</div>
 			</section>
 
-			<div class="col-md-1"></div>
-
-			<aside class="col-md-3">
+			<aside>
 				<h3>Connect with Me</h3>
-				<div id="social_image_block">
-					<div class="social_image">
+				<div id="aside_grey_line"></div>
+				<div id="icons">
 					<a href="https://github.com/sibi1414" target="_blank"><img src="assets/images/icon_github.png" alt="GitHub"></a>
-					<div>GitHub</div>
-				</div>
-				<div class="social_image">
-					<a href="https://www.linkedin.com/in/sarah-janesz-70a55275/" target="_blank"><img src="assets/images/icon_linkedin.png" alt="LinkedIn"></a>
-					<div>LinkedIn</div>
-				</div>
-				<div class="social_image">
+					<a href="https://www.linkedin.com/in/sarah-janesz-70a55275/" target="_blank"><img id="as_icon_middle" src="assets/images/icon_linkedin.png" alt="LinkedIn"></a>
 					<a href="https://stackoverflow.com/users/8333649/s-janesz" target="_blank"><img src="assets/images/icon_stackoverflow.png" alt="StackOverflow"></a>
-					<div>StackOverflow</div>
 				</div>
-			</div>	
 			</aside>
-		</div>	
+		</div>
+
+		<div class="push"></div>
 	</div>
 
-	<footer class="footer">
-		<div class="containter">
-			<p class="text-center text-muted">&copy; Copyright 2017 Sarah Janesz</p>
-		</div>
+	<footer>
+		<div id="footer_text">&copy; Copyright 2017 Sarah Janesz</div>
 	</footer>
-
-	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="https://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="https://bootswatch.com/assets/js/custom.js"></script>
 </body>
 </html>
